@@ -33,4 +33,16 @@ public class Animal {
     {
         return "An animal sleeps...";
     }
+    public String speak()
+    {
+        return "An animal makes noise";
+    }
+
+    public String displayWhatAnAnimalDoes()
+    {
+        String output;
+        output = this.eat()+" "+ this.sleep();
+        return output;
+    }
+
 }
